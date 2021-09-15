@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{79433b68-124f-49e7-8263-65c5e8fc584d}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{ce7208b8-7ad4-4291-ad25-02cd8188a7f6}" IsUserDefined="1" name="venture_general_tab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{5f7efcc0-f747-482b-bb11-84dd90ffbb83}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{40b9035b-48bd-4391-a629-514d4c222bca}">
+                        <labels>
+                          <label description="ID" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_venture" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="onebing_venture" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e6be18b-558a-47fd-8558-b3060d55bfcd}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="onebing_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e612a22d-2347-442e-b4e4-0aa20fc79ee2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Phase" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_phase" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="onebing_phase" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d9623b26-e486-4fed-a74a-dc5b646feda6}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_description" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="onebing_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="venture_initiator_section" id="8a93ee52-6265-4a5d-ba14-1fbb75995f11" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Initiator" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0861d0c8-08c5-4964-b882-bd8396a77081}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e3c6ce03-705a-4626-b174-d760dcf73704}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c5fe3cf0-e777-4597-8569-94c379521e8c}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f0a54b4f-593e-4398-a2aa-3a1d9f17cc2d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9d49badd-e04f-4ad8-bc3b-797fd33972f5}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{8fb96612-0781-43df-9298-a36b393a0ed5}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c00003c3-b3ed-4f6f-ab2f-207ed471dda6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b66330b8-4f35-43b9-9b5a-07a830c2f93a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2a76bb4c-3108-4e55-9088-0083a412cb3e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{94ebe5f9-c6da-4c0d-8c44-99069314e56c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{33959700-3e35-4885-beea-e08e0f2ce968}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6e0d14b4-ea80-47a2-9847-9633bbbcd1ca}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{896c264c-f486-48a2-b3a6-bee46daddd6f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
