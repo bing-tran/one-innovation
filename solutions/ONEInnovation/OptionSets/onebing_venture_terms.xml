@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="onebing_venture_terms" localizedName="Venture Terms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Venture Terms" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="100000000">
+      <labels>
+        <label description="Open Source" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="100000001">
+      <labels>
+        <label description="Shared Result" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="100000002">
+      <labels>
+        <label description="Joint Venture" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="100000003">
+      <labels>
+        <label description="Single Owner" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="100000004">
+      <labels>
+        <label description="IP Already Claimed" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="100000005">
+      <labels>
+        <label description="Not Yet Known" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

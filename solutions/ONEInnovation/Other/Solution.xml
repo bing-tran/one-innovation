@@ -82,8 +82,11 @@
     <RootComponents>
       <RootComponent type="1" schemaName="onebing_venture" behavior="0" />
       <RootComponent type="9" schemaName="onebing_phase" behavior="0" />
+      <RootComponent type="9" schemaName="onebing_venture_terms" behavior="0" />
       <RootComponent type="62" schemaName="onebing_ONEInnovation" behavior="0" />
       <RootComponent type="80" schemaName="onebing_ONEInnovation" behavior="0" />
+      <RootComponent type="431" schemaName="onebing_venture onebing_image" behavior="0" />
+      <RootComponent type="432" schemaName="onebing_venture" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>

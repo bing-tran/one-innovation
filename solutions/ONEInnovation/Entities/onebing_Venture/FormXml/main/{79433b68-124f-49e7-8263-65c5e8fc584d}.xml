@@ -36,11 +36,43 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{93668be7-ec38-4c1c-b2b9-636b9cf8bccf}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_title" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="onebing_title" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{e612a22d-2347-442e-b4e4-0aa20fc79ee2}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Phase" languagecode="1033" />
                         </labels>
                         <control id="onebing_phase" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="onebing_phase" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{83dcefd3-4896-407e-b564-3ef85bab474f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Terms" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_terms" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="onebing_terms" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{62885b12-a3e0-45d4-8f10-2addc80f7ef1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Except" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_except" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="onebing_except" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c0d58598-ecc0-4d25-b562-e3e763a075c6}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Image" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_image" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="onebing_image" disabled="false" />
                       </cell>
                     </row>
                     <row>

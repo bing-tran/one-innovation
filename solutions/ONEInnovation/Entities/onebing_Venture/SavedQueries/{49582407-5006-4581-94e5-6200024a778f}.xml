@@ -10,8 +10,12 @@
     <layoutxml>
       <grid name="resultset" jump="onebing_venture" select="1" icon="1" preview="1">
         <row name="result" id="onebing_ventureid">
-          <cell name="onebing_venture" width="300" />
-          <cell name="createdon" width="125" />
+          <cell name="onebing_venture" width="60" />
+          <cell name="onebing_name" width="180" />
+          <cell name="onebing_title" width="235" />
+          <cell name="onebing_phase" width="100" />
+          <cell name="onebing_terms" width="100" />
+          <cell name="ownerid" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -21,11 +25,15 @@
         <entity name="onebing_venture">
           <attribute name="onebing_ventureid" />
           <attribute name="onebing_venture" />
-          <attribute name="createdon" />
           <order attribute="onebing_venture" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="onebing_name" />
+          <attribute name="onebing_phase" />
+          <attribute name="onebing_terms" />
+          <attribute name="ownerid" />
+          <attribute name="onebing_title" />
         </entity>
       </fetch>
     </fetchxml>
