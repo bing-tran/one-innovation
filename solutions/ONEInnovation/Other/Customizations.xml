@@ -7,11 +7,25 @@
   <Templates />
   <EntityImageConfigs>
     <EntityImageConfig>
+      <parententitylogicalname>onebing_organization</parententitylogicalname>
+      <primaryimageattribute>onebing_logo</primaryimageattribute>
+    </EntityImageConfig>
+    <EntityImageConfig>
       <parententitylogicalname>onebing_venture</parententitylogicalname>
       <primaryimageattribute>onebing_image</primaryimageattribute>
     </EntityImageConfig>
   </EntityImageConfigs>
   <AttributeImageConfigs>
+    <AttributeImageConfig>
+      <attributelogicalname>onebing_logo</attributelogicalname>
+      <parententitylogicalname>onebing_organization</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
+    <AttributeImageConfig>
+      <attributelogicalname>onebing_coverimage</attributelogicalname>
+      <parententitylogicalname>onebing_organization</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
     <AttributeImageConfig>
       <attributelogicalname>onebing_image</attributelogicalname>
       <parententitylogicalname>onebing_venture</parententitylogicalname>

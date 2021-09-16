@@ -2,7 +2,7 @@
 <AppModule>
   <UniqueName>onebing_ONEInnovation</UniqueName>
   <IntroducedVersion>1.0.0.0</IntroducedVersion>
-  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <WebResourceId>2bed99ba-a874-4ee5-b334-53a9ac291b3d</WebResourceId>
   <OptimizedFor></OptimizedFor>
   <statecode>0</statecode>
   <statuscode>1</statuscode>
@@ -10,8 +10,8 @@
   <ClientType>4</ClientType>
   <NavigationType>0</NavigationType>
   <AppModuleComponents>
-    <AppModuleComponent type="1" schemaName="onebing_venture" />
     <AppModuleComponent type="62" schemaName="onebing_ONEInnovation" />
+    <AppModuleComponent type="1" schemaName="onebing_venture" />
   </AppModuleComponents>
   <AppModuleRoleMaps>
     <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />

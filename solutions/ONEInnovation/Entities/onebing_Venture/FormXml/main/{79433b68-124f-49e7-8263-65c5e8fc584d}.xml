@@ -85,6 +85,27 @@
                     </row>
                   </rows>
                 </section>
+                <section name="venture_lead_organization" id="093b6d37-52f3-4043-924a-7f24a06b85b2" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Lead Organization" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3483f33a-89df-464e-bfc6-cb11309b2e4a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Organization" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_leadorganization" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="onebing_leadorganization" disabled="false">
+                          <parameters>
+                            <DefaultViewId>{8649590F-CFC0-4C87-AC03-23B06930302C}</DefaultViewId>
+                            <AvailableViewIds>{97474854-F7F3-4616-9F34-11F22DA7D60A},{E6AEE183-8054-4034-AF26-9FE1F60587A2},{8649590F-CFC0-4C87-AC03-23B06930302C}</AvailableViewIds>
+                            <DisableViewPicker>true</DisableViewPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
                 <section name="venture_initiator_section" id="8a93ee52-6265-4a5d-ba14-1fbb75995f11" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="Initiator" languagecode="1033" />

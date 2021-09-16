@@ -80,17 +80,21 @@
       </Addresses>
     </Publisher>
     <RootComponents>
+      <RootComponent type="1" schemaName="onebing_organization" behavior="0" />
       <RootComponent type="1" schemaName="onebing_venture" behavior="0" />
       <RootComponent type="9" schemaName="onebing_phase" behavior="0" />
       <RootComponent type="9" schemaName="onebing_venture_terms" behavior="0" />
       <RootComponent type="62" schemaName="onebing_ONEInnovation" behavior="0" />
       <RootComponent type="80" schemaName="onebing_ONEInnovation" behavior="0" />
+      <RootComponent type="431" schemaName="onebing_organization onebing_coverimage" behavior="0" />
+      <RootComponent type="431" schemaName="onebing_organization onebing_logo" behavior="0" />
       <RootComponent type="431" schemaName="onebing_venture onebing_image" behavior="0" />
+      <RootComponent type="432" schemaName="onebing_organization" behavior="0" />
       <RootComponent type="432" schemaName="onebing_venture" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Required type="61" schemaName="msdyn_/RichTextEditorControl/libs/ckeditor/plugins/basicstyles/icons/hidpi/bold.png" displayName="msdyn_/RichTextEditorControl/libs/ckeditor/plugins/basicstyles/icons/hidpi/bold.png" solution="msdyn_RichTextEditor (1.0.0.1077)" />
         <Dependent type="80" schemaName="onebing_ONEInnovation" displayName="ONE Innovation" />
       </MissingDependency>
     </MissingDependencies>

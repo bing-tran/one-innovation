@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{22e412c0-4e74-4477-941f-d608ef2de7bb}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{5d0964f9-eb6e-4003-a5f7-928d6bd84745}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{361e99ba-8331-4de4-85a0-7fb2f0127bf0}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b6c9a134-d828-45ec-b1cd-96711c298ab6}">
+                        <labels>
+                          <label description="ID" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_id" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="onebing_id" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7447dfff-a3cb-483b-a57d-4500eac8ae7b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="onebing_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7908bd36-23bb-4794-a728-3a28e37a6597}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Headline" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_headline" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="onebing_headline" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1fcf0baa-bb5a-41f9-acbd-ba46e094b027}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Sub Headline" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_subheadline" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="onebing_subheadline" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{352a543c-c40f-41ac-ade9-38bab31d8133}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Website" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_website" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="onebing_website" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{33ba2c64-fb50-4320-8f93-641ad48a020b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Logo" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_logo" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="onebing_logo" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{03a132f7-fbbb-4db6-944d-167acfbbdb5b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Cover Image" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_coverimage" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="onebing_coverimage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a9e18761-4b2b-4e93-b906-7aa2901ecce7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Expertises" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_expertises" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="onebing_expertises" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fd9b76a1-b784-4d5a-b85a-57d3a72ecd1d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Key Offerings" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_keyofferings" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="onebing_keyofferings" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1d96f36b-6da6-4028-9618-093ad095bcb0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="onebing_description" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="onebing_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="organization_ventures" id="77680b61-8369-440e-aa31-892607fa70ce" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Ventures" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{3740ddce-a14c-49df-99cf-8cc868af3509}" rowspan="1" colspan="1" showlabel="true" auto="true">
+                        <labels>
+                          <label description="Ventures in this Organization" languagecode="1033" />
+                        </labels>
+                        <control id="Org_Ventures_Subgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>onebing_venture</TargetEntityType>
+                            <ViewId>{49582407-5006-4581-94E5-6200024A778F}</ViewId>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{49582407-5006-4581-94E5-6200024A778F}</ViewIds>
+                            <AutoExpand>Auto</AutoExpand>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name=" OrganizationInitiator" id="fe7c7aff-2c16-4120-bf50-bd8a243009db" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Initiator" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0704a7e7-a8ba-4ad2-a4bb-36ad94e5c18f}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3c5bebad-7494-492c-b1ae-26e6c451cbe3}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d9596b95-6aff-4a5c-932f-594bf1f0b9c8}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{60d9a954-8e1f-41bb-bc58-9d747f912cbe}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{0b39cb1d-1ee9-44c4-9a11-69644a16372b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9f33bf71-3acc-4914-a580-0389e6505718}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a78fd143-6283-412e-b36c-203f903e262f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{30328050-aeb1-4b8f-a25d-ca35e3dbe9b8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{4982f6ed-e61a-4da5-8ece-f25aae96902e}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d4ccf390-7f06-47a3-acb0-95d68f42ff04}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b3795503-1209-4adb-a4a6-9360be54f669}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c263f63b-12d1-481c-9911-f887cb1b06eb}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

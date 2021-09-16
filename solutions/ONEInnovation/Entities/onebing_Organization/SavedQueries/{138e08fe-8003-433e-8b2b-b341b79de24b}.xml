@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{138e08fe-8003-433e-8b2b-b341b79de24b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="onebing_id" select="1" icon="1" preview="1">
+        <row name="result" id="onebing_organizationid">
+          <cell name="onebing_id" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="onebing_organization">
+          <attribute name="onebing_organizationid" />
+          <attribute name="onebing_id" />
+          <attribute name="createdon" />
+          <order attribute="onebing_id" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="onebing_id" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Organizations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
